@@ -18,7 +18,7 @@ prometheus-client = "*"
 prometheus-flask-exporter = "*"
 requests = "*"
 thoth-analyzer = "*"
-thoth-common = "*"
+thoth-common = {editable = true,git = "https://github.com/CermakM/common",ref = "develop"}
 thoth-python = "*"
 thoth-storages = "*"
 flask-cors = "*"
